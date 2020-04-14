@@ -1,0 +1,16 @@
+m = 5
+c = -1
+x = [0, 1, 2, 3, 4, 5, 6]
+y = [m*x_i + c for x_i in x]
+print(y)
+
+[-1, 4, 9, 14, 19, 24, 29]
+
+X = np.array(x)
+Y = m*X + c
+In [6]:
+print(Y)
+
+[-1  4  9 14 19 24 29]
+
+plt.scatter(X, Y)
